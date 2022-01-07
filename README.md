@@ -1,0 +1,2 @@
+# AddedAlternativeCodeWithoutReactMemo
+Created with CodeSandbox
