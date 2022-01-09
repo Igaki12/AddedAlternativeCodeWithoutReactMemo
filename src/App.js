@@ -2,7 +2,7 @@ import "./styles.css";
 import React, { useState } from "react";
 
 // const CountResult = React.memo(({ text, countState }) => {
-//   console.log("${text}ボタンがクリックされました！");
+//   console.log(text + "ボタンがクリックされました！");
 //   return (
 //     <p>
 //       {text}: {countState}
@@ -10,7 +10,7 @@ import React, { useState } from "react";
 //   );
 // });
 const CountResult = ({ text, countState }) => {
-  console.log("${text}ボタンがクリックされました");
+  console.log(text + "ボタンがクリックされました");
   return (
     <p>
       {text}:{countState}
